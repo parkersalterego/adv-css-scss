@@ -6,8 +6,9 @@ Medium green: #55c57a
 Dark green: #28b485
 
 */
-
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
@@ -47,7 +48,6 @@ body {
   position: absolute;
   top: 4rem;
   left: 4rem;
-
 }
 
 .logo {
